@@ -51,4 +51,8 @@ cc_library {
     ],
     cflags: ["-Wall", "-Werror"],
     export_include_dirs: ["."],
+
+    lto: {
+        full: true,
+    },
 }
